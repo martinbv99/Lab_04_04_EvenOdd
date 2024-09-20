@@ -3,13 +3,13 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int numToExamine = 2;
-        int MODULO = 2;
-        int sum = 0;
+        int numToExamine = 5;
+        int result = 0;
 
-        sum = numToExamine % MODULO;
-        System.out.println("The modulo of two integers " + MODULO + " and " + numToExamine + " is " + sum );
-        System.out.println("Since the modulo is 0 that means 2 is even.");
+        result = numToExamine % 2;
+        System.out.println("The modulo of " + numToExamine + " is " + result );
+
+        System.out.println("If the output is 1 the number is odd. If the output is 0 the number is even. ");
 
 
 
